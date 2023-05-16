@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Heebo', sans-serif;
+}
+
+header{
+    background-color: #11468F;
+}
+
+nav{
+    display: flex;
+    justify-content: end;
+    max-width: 1152px;
+    margin: 27px auto 0;
+}
+
+nav a{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 23px;
+}
+
+#sobre-mim-section{
+    width: 860px;
+    margin: 175px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#sobre-mim-section div h1{
+    font-size: 44px;
+    font-weight: bold;
+    line-height: 60px;
+    margin-bottom: 40px;
+}
+
+#sobre-mim-section div p{
+    width: 497px;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+#sobre-mim-section button{
+    margin-top: 38px;
+    width: 208px;
+    height: 47px;
+    background-color: #DA1212;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #fff;
+}
+
+#sobre-mim-section button:hover{
+    cursor: pointer;
+    background-color: #ff0000;
+    transition: 0.5s;
+}
+
+#sobre-mim-section div img{
+    width: 243px;
+    height: 243px;
+    border-radius: 50%;
+}
+
+#meus-projetos-section{
+    background-color: #11468F;
+    padding: 24px 0;
+    margin: 70px 0 ;
+}
+
+#meus-projetos-section h2{
+    font-size: 28px;
+    color: #fff;
+}
+
+#meus-projetos-section section{
+    width: 860px;
+    margin: 0 auto;
+
+}
+
+
+.projetos-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 21px;
+}
+
+.projetos-container div{
+    background-color: #fff;
+    width: 49%;
+    margin: 0 0 20px 0;
+    padding-bottom: 16px;
+    border-radius: 8px;
+}
+
+.projetos-container div a{
+    text-decoration: none;
+    color: #000;
+}
+
+.projetos-container div .projeto1{
+    width: 100%;
+    height: 170px;
+    border-radius: 8px;
+    background-image: url(../img/academia.jpg);
+    background-size: cover;
+}
+
+.projetos-container div .projeto2{
+    width: 100%;
+    height: 170px;
+    border-radius: 8px;
+    background-image: url(../img/restaurante.jpg);
+    background-size: cover;
+}
+
+.projetos-container div .projeto3{
+    width: 100%;
+    height: 170px;
+    border-radius: 8px;
+    background-image: url(../img/pokemon.jpg);
+    background-size: cover;
+}
+
+.projetos-container div .projeto4{
+    width: 100%;
+    height: 170px;
+    border-radius: 8px;
+    background-image: url(../img/dicas-home-office-scaled.webp);
+    background-size: cover;
+}
+
+.projetos-container div h3{
+    font-size: 26px;
+    font-weight: bold;
+    margin: 14px 0 9px 23px;
+}
+
+.projetos-container div p{
+    font-size: 16px;
+    margin-left: 23px;
+    margin-bottom: 15px;
+}
+
+#experiencias-cotainer{
+    width: 1080px;
+    margin: 55px auto;
+}
+
+#experiencias-cotainer section{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#experiencias-cotainer h2{
+    margin: 0 0 15px 110px;
+    font-size: 28px;    
+}
+
+.experencia-item{
+    width: 480px;
+    background-color: #11468F;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 20px 27px 20px;
+    margin-bottom: 37px;
+    border-radius: 45px;
+    color: #fff;
+}
+
+.experencia-item img{
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.experencia-item h3{
+    font-size: 36px;
+    margin: auto 0 0 13px;
+}
+
+.experencia-item p{
+    margin-top: 12px;
+    font-size: 16px;
+}
+
+.experencia-item span{
+    margin: 26px 0;
+    width: 100%;
+    font-size: 22px;
+}
+
+.experencia-item ul{
+    width: 100%;
+    margin-left: 20px;
+}
+
+.experencia-item ul li{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#habilidades-container{
+    width: 100%;
+}
+
+#habilidades-container h2{
+    font-size: 28px;
+    margin-bottom: 6px;
+    text-align: center;
+}
+
+#habilidades-container div{
+    width: 100%;
+    background-color: #11468F;
+    padding: 12px 0;
+    display: flex;
+    justify-content: center;
+}
+
+#habilidades-container div img{
+    height: 80px;
+    width: 80px;
+}
+
+#habilidades-container div img + img{
+    margin-left: 23px;
+}
+
+footer{
+    width: 850px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-top: 1px solid #E0E0E0;
+    padding: 31px;
+}
+
+footer p{
+    width: 100%;
+    text-align: center;
+    margin-top: 26px;
+}
+
+footer a img{
+    height: 30px;
+    width: 30px;
+    margin: 0 0 0 22px;
+}
+
+@media (max-width: 500px) {
+    
+    nav {
+        width: 100%;
+    }
+
+    nav a {
+        font-size: 15px;
+    }
+
+    #sobre-mim-section {
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 34px;
+        width: 100%;
+    }
+
+    #sobre-mim-section div h1 {
+        font-size: 32px;
+        line-height: 40px;
+        margin-bottom: 44px;
+        text-align: center;
+    }
+
+    #sobre-mim-section div p {
+        font-size: 16px;
+        width: 328px;
+        text-align: center;
+    }
+
+    #sobre-mim-section div img{
+    
+        width: 177px;
+        height: 177px;
+        margin-bottom: 36px;
+    }
+
+    #sobre-mim-section div button {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+
+
+    #meus-projetos-section {
+        display: flex;
+    }
+
+    #meus-projetos-section section h2 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .projetos-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .projetos-container div {
+        width: 354px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .projetos-container div h3 {
+        font-size: 22px;
+    }
+
+    .projetos-container div p {
+        font-size: 16px;
+        max-width: 314px;
+    }
+
+    #habilidades-container h2 {
+        font-size: 24px;
+    }
+
+    #habilidades-container div {
+        flex-wrap: wrap;
+        padding: 4px 0 34px;
+    }
+
+    #habilidades-container img, #habilidades-container div img + img {
+        margin: 40px 30px 0px;
+    }
+
+    #experiencias-cotainer {
+        width: 100%;
+    }
+
+    #experiencias-cotainer section {
+        flex-wrap: wrap;
+    }
+
+    .experencia-item {
+        width: 355px;
+        box-sizing: border-box;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .experencia-item img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .experencia-item h3 {
+        font-size: 24px;
+    }
+
+    .experencia-item p {
+        font-size: 12px;
+    }
+
+    .experencia-item span {
+        font-size: 18px;
+    }
+
+    .experencia-item ul li {
+        font-size: 15px;
+    }
+
+    footer {
+        width: 100%;
+    }
+}
